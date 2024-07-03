@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Super NES Website</title>
+    <link rel="stylesheet" href="../css/Normalize.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="../js/home.js"></script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body>
+    <!-- Header section -->
+    <header id="mainHeader" class="header">
+        <nav>
+            <ul class="horizontal-list">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content section -->
+    <div class="tab-container">
+        <div class="image-border">
+            <img src ="../images/SuperNES.png" alt="Super NES">
+        </div>
+        <div class="center-text">
+            <p class="center-text">The all new</p>
+            <p class="center-text">Super NES</p>
+        
+
+            <!-- Button container -->
+                    <button class="learn-more-button" onclick="navigateToPage('about.html')">Learn More</button>
+                    <button class="buy-now-button" onclick="navigateToPage('products.html')">Buy Now</button>
+        </div>
+    </div>
+
+    <div class="video-container">
+        <video src="../videos/Combined.mov" width="90%" height="1000px" autoplay loop></video>
+    </div>
+
+
+    <!-- Footer section -->
+    <footer class="footer" id="footer">
+        <p>© 19XX-20XX Nintendo. Super NES is a trademark of Nintendo.</p>
+    </footer>
+</body>
+
+</html>

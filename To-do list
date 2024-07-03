@@ -1,0 +1,27 @@
+<Important>
+-
+-Needs more content(All pages) - 90% done
+
+
+
+
+<Semi-Important>
+-Needs to be mobile friendly, header not accessible on some sizes - !this should be fixed with the normalized Css code!
+-Some elements are not responsive(Contact page submit - "Message submitted!" popup,
+-
+-
+
+<Not-so-Important>
+-Learn more button should take user to products page(currently does) and automatically 
+scroll down to the "About the SUPER NES" section(currrently does not do this part) <-- Javascript
+-On mobile, the SNES image is above the text, should be under
+-
+
+
+
+<NOTES>
+-I removed the scroll bar from all the pages except about cause I think it looks better this way -James
+-You can fix the gap in the header on the about page by removing the scroll bar but then you can't access the content down below -James
+- added a favicon to all pages
+-
+-
